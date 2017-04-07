@@ -1,5 +1,8 @@
+package Demo;
 
-public class SimpleScopeDemo {
+import Prt.Prt;
+
+public class SimpleScope{
 	public static void main(String[] args){
 		{
 			int x = 1;

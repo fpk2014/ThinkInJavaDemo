@@ -1,3 +1,4 @@
+package Prt;
 
 public class Prt {
 	public static void prt(Object o){
