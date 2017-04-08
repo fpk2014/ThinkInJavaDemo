@@ -20,14 +20,14 @@ public class Property {
 	* @exception exceptions No exceptions thrown
 	*/
 	public static void main(String[] args){
-		Prt.prt(new Date());
+		Prt.Prt(new Date());
 		
 		Properties p = System.getProperties();
 		p.list(System.out);
 		
-		Prt.prt("--- Memory Usage:");
+		Prt.Prt("--- Memory Usage:");
 		Runtime rt = Runtime.getRuntime();
-		Prt.prt("Total memory = "+ rt.totalMemory()/1024/1024+
+		Prt.Prt("Total memory = "+ rt.totalMemory()/1024/1024+
 				" \nFree Memory = "+ rt.freeMemory()/1024/1024);
 	}
 }///:~

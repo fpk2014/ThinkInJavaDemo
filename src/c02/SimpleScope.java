@@ -14,6 +14,6 @@ public class SimpleScope{
 		{
 			y = 2;
 		}
-		Prt.prt(y);
+		Prt.Prt(y);
 	}
 }
